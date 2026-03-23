@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hexapod_control</name>
+  <version>0.1.0</version>
+  <description>Control and kinematics package for hexapod locomotion.</description>
+  <maintainer email="todo@example.com">TODO</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>hexapod_interfaces</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

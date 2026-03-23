@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>hexapod_bringup</name>
+  <version>0.1.0</version>
+  <description>Bringup package for hexapod ROS 2 system orchestration.</description>
+  <maintainer email="todo@example.com">TODO</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>hexapod_control</exec_depend>
+  <exec_depend>hexapod_hardware</exec_depend>
+  <exec_depend>hexapod_sensors</exec_depend>
+  <exec_depend>hexapod_teleop</exec_depend>
+  <exec_depend>hexapod_description</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
